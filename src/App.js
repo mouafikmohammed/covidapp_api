@@ -19,7 +19,7 @@ class APP extends React.Component {
     const { data } = this.state;
     return (
       <div className={styles.containers}>
-          <Cards />
+          <Cards data={data}/>
           <CountryPicker />
           <Chart />
       </div>
